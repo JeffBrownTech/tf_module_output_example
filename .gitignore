@@ -10,3 +10,6 @@
 
 # Terrafork lock file
 **/.terraform.lock.hcl
+
+# terraform plan output file
+tfplan

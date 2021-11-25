@@ -1,4 +1,12 @@
-**/.terraform.lock.hcl
+# Local Terraform directories
 **/.terraform/*
-**/terraform.*
-**/terraform.tfvars
+
+# Terraform variable values files
+*.tfvars
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terrafork lock file
+**/.terraform.lock.hcl
